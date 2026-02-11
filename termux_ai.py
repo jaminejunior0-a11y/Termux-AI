@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-TERMUX AI ORCHESTRATOR v7.2
+TERMUX AI ORCHESTRATOR v7.2.1
 Vibe Coding Terminal for Android/Termux
 Enhanced with AI Screen Reading (Look/See commands)
 """
@@ -1105,7 +1105,7 @@ class TermuxOrchestrator:
 ║      ██║   ███████╗██║  ██║██║ ╚═╝ ██║╚██████╔╝██╔╝ ██╗          ║
 ║      ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝          ║
 ║                                                                  ║
-║           AI ORCHESTRATOR v7.2 - With AI Vision                  ║
+║           AI ORCHESTRATOR v7.2.1 - With AI Vision                  ║
 ╚══════════════════════════════════════════════════════════════════╝
 [/bold cyan]
 [dim]{termux_status} | {ai_status} | {vision_status} | {len(self.termux.installed_packages)} pkgs | {editor}[/dim]
