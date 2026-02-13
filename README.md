@@ -9,13 +9,13 @@ The Ethical AI Terminal is a high-fidelity, PTY-based shell wrapper designed for
  * Low Overhead: Optimized for mobile devices to ensure zero lag during standard terminal operations.
 🛠️ Installation
 1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/ethical-ai-terminal.git
-cd ethical-ai-terminal
+git clone https://github.com/jaminejunior0-a11y/Termux-AI.git.git
+cd Termux-AI 
 
-2. Install Dependencies
+3. Install Dependencies
 pip install rich httpx
 
-3. Set Up Your API Keys
+4. Set Up Your API Keys
 This script supports both Groq (Llama 3.3) and OpenAI. Add your preferred key to your shell profile (~/.bashrc or ~/.zshrc):
 export GROQ_API_KEY='your_groq_api_key_here'
 # OR
@@ -29,12 +29,7 @@ Commands
  * Standard Commands: Run any shell command (ls, pkg install, git, etc.) as usual.
  * AI Integration: Use the ai keyword to talk to the assistant.
    * Example: ai how do I find large files in this directory?
- * Clear Screen: Use clear to refresh the dashboard and banner.
-🔗 Bridge Configuration (Personalization)
-To keep the core script clean for GitHub, you can add your personal drive shortcuts (like xdrive or tdrive) to your ~/.bashrc file:
-# Example Bridge Shortcuts
-alias xdrive='cd /sdcard/xdrive && echo "Media Drive Active"'
-alias tdrive='cd /sdcard/tdrive && echo "Projects Drive Active"'
+ * Clear Screen: Use clear to refresh the dashboard.
 
 🛡️ Ethical Use
 This tool is intended for Cybersecurity hobbyists and Developers. Always ensure you have permission before performing audits or network scans on infrastructure you do not own.
